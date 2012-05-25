@@ -1,0 +1,1 @@
+convert -size 500x200 canvas:none -background white -undercolor white -fill black -flatten -alpha off -font FreeSans-GrasItalique -pointsize 60 -draw "text 5,80 'THSF 3.0'" -stroke black -draw "text 5,160 'WE WANT PORN'" /tmp/img.png -append PNG:- | lp -d ticket -
